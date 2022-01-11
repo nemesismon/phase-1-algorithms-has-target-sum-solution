@@ -42,6 +42,13 @@ understand it:
 Note that this description of the problem highlights the inputs and output
 (return value), and gives us some ideas to explore later in our pseudocode.
 
+REWROTE THE PROBLEM IN MY OWN WORDS:
+I need to make a function called hasTargetSum from an arry to find out if any two numbers
+inside are equal to the target.  In an array with [1, 3 , 5, 7, 9] for example, we would 
+iterate over pairs to see which combination matches the target.  If the target was 12, we 
+should find that the sum of 5 and 7 would equal the target of 12 and return false.  If no pairs 
+satisfied this search we would return false.
+
 ### 2. Write Your Own Test Cases
 
 Next, let's write a few test cases. Once again, let's consider what
